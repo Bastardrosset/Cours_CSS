@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+    <html lang="fr">
+       <head>
+              <title>Propriétées CSS et leurs définitions</title>
+              <meta charset="utf-8">
+              <link rel="stylesheet" href="style-proprietes-css.css">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+               <!-- Google Analytics -->
+<script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+       
+       ga('create', 'G-DRWZ5WWLC8', 'auto');
+       ga('send', 'pageview');
+       </script>
+       <!-- End Google Analytics -->           
+       </head>
+               
+              <body>
+                    <h1>Tableau des propriétés <span class="upper">css </span>et leurs définitions.</h1>
+                    <h2>Présentation :</h2>
+                            <p>Créé en 1996 généralement appelées <span class="upper">css</span> de l'anglais Cascading Style Sheets, forme un langage informatique qui permet de donné du style aux pages et de mettre en forme les documents en permettant de modifier l'apparence.
+                            </p>
+                     <h2>Syntaxe <span class="upper">css </span>:</h2> 
+                    <table class="tableau">     
+                       
+                        <thead>
+                            <tr>
+                                <th class="proprietes">proprietes</th>
+                                <th class="definitions">definitions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rouge">/*.........*/</td>
+                                <td>Pour pouvoir ajouter un commentaire en <span class="css">css</span>.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">color:</td>
+                                <td>Propriétées à laquelle on donne la valeur désirée. <span class="rouge">color:</span> red;/green;</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">background-color:</td>
+                                <td>Propriétée qui va defini la couleur de fond à la page ou partie à laquelle elle est attribuée.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">font-family:</td>
+                                  <td>Police d'écriture de la page à laquelle elle est attribuée. </td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">font-weight:</td>
+                                <td>Permet d'épaissir une police d'écriture. Normal, <span class="rouge">ligther</span> ( plus fine que la normale ), <span class="rouge">bold</span> ( plus épaisse que la normale), <span class="rouge">bolder</span> va définir une écriture très épaisse.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">font-size:</td>
+                                <td>Défini en pixels la taille de police d'écriture.</td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">font-style:</td>
+                                 <td>Permet de définir une inclinaison <span class="rouge">normal</span> <span class="rouge">italic</span> <span class="rouge">bold</span></td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">text-align:</td>
+                                  <td>Va permettre de gérer l'alignement du texte. Left contre le bord gauche, rigth contre le bord droit, center au centre et justify les écarts entre les mots vont être calculés de façon à ce que chaque ligne de texte occupe la même largeur.</td>
+                         </tr>
+                           <tr>
+                                  <td class="rouge">text-transform:</td>
+                                  <td>Va permettre de définir la taille du texte soit en minuscules soit en majuscules. None est la valeur par défaut ( pas de transformation ), <span class="rouge">lowercase</span> transforme tout le texte d’un élément en minuscules, <span class="rouge">uppercase</span> transforme tout le texte d’un élément en majuscules, <span class="rouge">capitalize</span> transforme la première lettre de chaque mot en majuscule.</td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">text-decoration:</td>
+                                 <td>Va permettre d' ajouter une décoration à un texte."<span class="rouge">Underline</span>" permet de souligner le texte auquel il est attribué, "<span class="rouge">none</span>" sans décorations, <span class="rouge">line-through</span> ajoute un trait qui va barrer le texte.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">text-shadow:</td>
+                                  <td>Va permettre d' ajouter des ombres autour d'un texte.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">opacity:</td>
+                                <td>Propriété qui permet de modifier la transparence d’un élément. Sur une échelle de 0 à 1, la valeur 0 représentant la transparence totale, et la valeur 1 une opacité complète.  Permet de faire des transitions entre des couleurs en évitant ces calculs</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">&gt;</td>
+                                <td>Chevron fermant permet de cibler le contenu d' un élément lier dans un autre élément.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">~</td>
+                                <td>Va nous permettre de selectionner et d'appliquer à tous les éléments déclarés après un autre élément en HTML de même niveau.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">+</td>
+                                <td>Va nous permettre de sélectionner l' élément déclaré après un autre élément en HTML de même niveau.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">*</td>
+                                <td>Séléctionne tous les éléments</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">E , F</td>
+                                <td>Séléctionne tous les éléments de type E et F</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">#</td>
+                                <td>Est le selecteur de l'attribut id</td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">.</td>
+                                 <td>Est le sélécteur de l'attribut class</td>
+                         </tr>
+                          <tr>
+                                 <td class="rouge">margin:</td>
+                                 <td>Marge extèrieure. Peu être place à <span class="rouge">top</span> <span class="rouge">left</span> <span class="rouge">bottom</span> et <span class="rouge">right</span>.</td>
+                         </tr>
+                          <tr>
+                            <td class="rouge">padding-top:</td>
+                            <td>Permet de définir en pixels ou % la marge interne supérieur (taille, style et couleur).</td>
+                         </tr>
+                          <tr>
+                            <td class="rouge">padding-rigth:</td>
+                            <td>Permet de définir en pixels ou % la marge interne de droite (taille, style et couleur).</td>
+                         </tr>
+                          <tr>
+                            <td class="rouge">padding-left:</td>
+                            <td>Permet de définir en pixels ou % la marge interne de gauche (taille, style et couleur).</td>
+                        </tr>
+                         <tr>
+                            <td class="rouge">padding-bottom:</td>
+                            <td>Permet de définir en pixels ou % la marge interne inférieur (taille, style et couleur).</td>
+                        </tr>
+                         <tr>
+                                 <td class="rouge">width:</td>
+                                 <td>Défini la largeur de l'élément auquel il est attribué en fonction de la taille de l'élément parent.Ne s'applique pas aux éléments de type inline.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">height:</td>
+                                  <td>Défini la hauteur de l'élément auquel il est attribué en fonction de la taille de l'élément parent. Ne s'applique pas aux éléments de type inline.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">display:</td>
+                                  <td>Va permettre de définir le type d'affichage dans la page. L'élément sera l'élément parent (de type bloc ou en ligne), la disposition est appliqué à ces sous "éléments enfants" et ou permet d'organiser la disposition sur la page.</td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">display: block;</td>
+                                 <td>Défini un affichage en block à l' élément auquel il est attribué. Il peut contenir d'autres éléments de types block ou inline et va toujours occuper toute la largeur au sein de son élément parent. Va créer un saut de ligne avant et après l'élément. </td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">display: none;</td>
+                                 <td>L'affichage de l'élément ne sera pas visible. La propriétée visibility va faire disparaître l'élément mais l'espace qu'il occupe sera comservé dans la page. Masque le contenu aux personnes utilisant des technologies d'assistance.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">display: content;</td>
+                                  <td>Va également faire disparaître les boites, mais à l'inverse du display-none, le contenu de l'élément va être affiché normalement. </td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">display: inline;</td>
+                                 <td>L'affichage de l'élément se fera en ligne se placeront en ligne de l'élément qui le précède.L'élément ne va occuper que la largeur néccéssaire à l'affichage de sont contenu par defaut mais on va pouvoir lui donner une taille précise. Ne doit pas contenir d'élément de type block.</td>
+                         </tr>
+                         <tr>
+                                 <td class="rouge">display: list-item;</td>
+                                 <td>L'affichage se fera sous forme de block et va appliqué aux éléments un type de liste. List-style-position: outside; pour que les marqueurs ne soient pas visible et list-style-position: insid; pour qu'ils soient visible. </td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">display: table;</td>
+                                  <td>L'affichage se fera sous forme de block et va être appliqué aux éléments de type tableau.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">display: float;</td>
+                                  <td>Va permettre de faire flotter des éléments dans la page et du fait pouvoir les positionner.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">display:flex;</td>
+                                  <td>L'élément va se comporter comme une boite flexible ( élément de type block ) et va demander un contexte de formatage type flex. L'élément sera le parent direct des "sous éléments" se trouvant à l'interieur à qui seront appliqués les propriétés du display-flex.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">display: grid;</td>
+                                  <td>L'élément de type block va se comporter comme une grille et va créer en interne un contexte de formatge de type grille. </td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">border:</td>
+                                  <td>Permet de définir une bordure autour d'un élément.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">border: color...;</td>
+                                  <td>Permet de féfinir la couleur de la bordure.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">border-style:</td>
+                                  <td>Permet de définir le style de bordure, <span class="rouge">solid</span>
+                                   , <span class="rouge">dotted</span> <span class="rouge">dashed</span> <span class="rouge">double</span> <span class="rouge">groove</span> ( effet incrusté 3D ), <span class="rouge">ridge</span> ( effet relief 3D ). </td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">border-width:</td>
+                                  <td>Permet de définir l'épaisseur de la bordure en pixels.</td>
+                         </tr>
+                         <tr>
+                                  <td class="rouge">border-radius:</td>
+                                  <td>Permet de définir des bordures arrondis. </td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">border-collapse:</td>
+                                  <td>Permet deux bordures en une seul dans un tableau. La valeur par defaut est "<span class="rouge">separate</span>"( bordures séparées ).</td>
+                         </tr>
+                           <tr>
+                                  <td class="rouge">border-spacing:</td>
+                                  <td>Permet d' unifier deux bordures dans un tableau, les deux épaisseurs de trait seront réunis et il est possible de gérer l'espacement en px.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">position: relative;</td>
+                                  <td>Placé dans un block div, l'élément va pouvoir être déplacé grace aux propriétées <span class="rouge">left</span> <span class="rouge">top</span> ... et sera positionné en fonction de son élément.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">position: absolute;</td>
+                                  <td>L'élément va être placé par rapport à son parent, selon le point de référence pour les propriétés <span class="rouge">top</span> <span class="rouge">left</span> <span class="rouge">bottom</span> et <span class="rouge">right</span> va ainsi être le côté de l’élément parent liée à la propriété.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">position: fixed;</td>
+                                  <td>L'élément sera placé de manière fixe en cas de scroling, l'élément va être position selon le viewport et non pas en fonction de son parent le plus proche.</td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">position: sticky;</td>
+                                  <td>Va être calculé en fonction de son parent possèdant un mécanisme de scroling. L'élément positionné avec <span class="rouge">position: sticky</span> va avoir une position relative au départ puis son positionnement va devenir fixe dès qu’un certain point sera franchi, c’est-à-dire à partir d’un certain niveau de défilement de la page.<br> Les propriétés <span class="rouge">top</span> <span class="rouge">left</span> <span class="rouge">bottom</span> et <span class="rouge">right</span> vont nous permettre de pouvoir préciser à partir de quel moment l’élément positionné avec <span class="rouge">position: sticky</span> va devoir être fixe. </td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">float:</td>
+                                  <td>La valeur par defaut de float est none. En appliquant un <span class="rouge">float rigth</span> ou <span class="rouge">left</span>, l'élément va venir se positionner à droite ou à gauche de son élément conteneur ou va être décalé jusqu'a toucher un autre élément flottant.<br>
+                                   Avec la valeur <span class="rouge">float-inline-start</span> l'élément va venir se positionner au dédut (à gauche ) de son élément conteneur et va être décalé vers le début de son conteneur jusqu’à toucher un autre élément avec <span class="rouge">float : inline-start</span><br>
+                                   Avec la valeur float-inline-end, l'élément va venir se positionner à la fin de son élément conteneur et va être décalé vers la fin de son conteneur jusqu’à toucher un autre élément avec <span class="rouge">float: inline-end</span></td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">clear: none;</td>
+                                  <td>Valeur par défaut. Laisse les éléments se positionner à côté d’éléments flottants. </td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">clear: left;</td>
+                                  <td>Empeche les éléments de venir se positionner à coté d'éléments possèdant un <span class="rouge">float-left</span></td>
+                         </tr>
+                          <tr>
+                                  <td class="rouge">clear: right;</td>
+                                  <td>Empeche les éléments de venir se positionner à coté d'éléments possèdant un <span class="rouge">float-rigth</span></td>
+                         </tr>
+                           <tr>
+                                  <td class="rouge">clear: both;</td>
+                                  <td>Empêche un élément de se positionner à côté d’éléments possédant un <span class="rouge">float: left</span> ou un <span class="rouge">float: right</span></td>
+                         </tr>
+                           <tr>
+                                  <td class="rouge">clear: inline-start;</td>
+                                  <td>Empêche un élément de se positionner à côté d’éléments possédant un <span class="rouge">float: inline-start</span></td>
+                         </tr>
+                            <tr>
+                                  <td class="rouge">clear: inline-end;</td>
+                                  <td>Empêche un élément de se positionner à côté d’éléments possédant un <span class="rouge">float: inline-end</span></td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">transform:</td>
+                                <td>Propriété qui permet de modifier une coordonnée pour une mise en forme visuel. Il est possible de translater l'élément de le tourner, d'appliquer des formes géométriques et changer de perspective. Cette propriété dispose de 20 fonctions différentes. On ne peu assigner qu'une seul propriétée "<span class="rouge">transform</span>>" à un élément. Pour assigner plusieurs fonctions à cet élément, il faut les indiquer à la suite dans la même propriétée.<a class="violet" href="https://developer.mozilla.org/fr/docs/Web/CSS/transform" target="_blank"> Lien</a> vers les différentes fonctions de transform.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">transform-origin:</td>
+                                <td>Permet de déplacer le centre d'origine de notre élément pour une opération de transformaton selon les valeurs que nous lui assignons. L'axe X est mesuré à partir de la bordure gauche de l’élément, et l’axe Y est mesuré depuis le bord supérieur. Le point d'origine par défaut, au centre de l'élément, peut donc être écrit de cette manière :  <span class="rouge">transform-origin:</span> 50% 50%. On peut aussi utiliser des mots clés <span class="upper">CSS</span> pour définir les points d'ancrage, comme  '<span class="rouge">left</span>', '<span class="rouge">right</span>' pour X et '<span class="rouge">bottom</span>', '<span class="rouge">top</span>' pour Y, ou encore '<span class="rouge">center</span>'. Ont peu égalemnt lui assigner qu'une seul valeur.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">translate();</td>
+                                <td>Fonction qui permet de déplacer un élément. Le déplacement est défini en injectant une valeur sur les axes X(horizontal) et Y(vertical). Elle accepte différentes unitées comme les px, les vh , les em ou rem.</td>
+                       </tr>
+                       <tr>
+                                <td class="rouge">scale();</td>
+                                <td>Fonction qui modifie et applique une transformation sur un plan en 2D. On peu utiliser cette fonction en 'scale3D()'. Ca valeur est en %. <span class="rouge">0 = 0%</span> et <span class="rouge">1 = 100%</span> . Pour exprimer en pourecentage, scale(1) represente 100% ou encore scale(2, 0.7) represente X200% et Y70%..</td>
+                        </tr>
+                        <tr>
+                                <td class="rouge">rotate();</td>
+                                <td>Fonction qui permet la rotation d'un objet. Les unitées sont exprimées en "X<span class="rouge">deg</span>". Si l'angle est positif la rotation se fera dans le sens des aiguilles d'une montre et si elle est négative elle se fera à l'inverse des aiguilles d'une montre. Un "<span class="rouge">turn</span>" correspond à 360°</td>
+                       </tr>
+                        <tr>
+                                <td class="rouge">object-fit:</td>
+                                <td>Propriété qui permet de définir la façon dont le contenu d'un élément photo ou vidéo doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur. Selon la valeur utilisé, l'élément peu être rogné, étiré ou mis à l'echelle afin de remplir la boite qui le contient. Les valeurs "cover" permet de dimensionné l'élément en maintenant son ratio d'affichage, "<span class="rouge">contain</span>" permet de maintenir les proportions de l'élément, "<span class="rouge">none</span>" le contenu n'est pas redimentionné à l'interieur de l'élément. </td>
+                       </tr>
+                       <tr>
+                                <td class="rouge">skew();</td>
+                                <td>Fonction qui permet de faire une distorsion en étirant chaque point de l'élément d'un certain angle dans une direction. Exprimée en degrée skew(45<span class="rouge">deg</span>) ou encore sur les axes <span class="rouge">skewX()</span> ou <span class="rouge">skewY()</span></td>
+                        </tr>
+                            <tr>
+                                  <td class="rouge">transition:</td>
+                                  <td>Propriété qui permet de définir la transition entre deux états d'un élément. Les différents états peuvent être définis à l'aide de pseudo-classes telles que <span class="rouge">:hover</span> ou <span class="rouge">:active</span> La valeur s'exprime en % (0=0% et 1=100%). Note, le mot clé <span class="upperRed">all</span> permet d'appliquer la transition à toutes les propriétés modifiées dans la pseudoclasse.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">transition-duration:</td>
+                                <td>Propriété qui permet de définir le nombre de secondes ou de millisecondes que doit durer une animation. La valeur par défaut, 0s, indique qu'il n'y aura aucune animation. Il est possible de définir plusieurs durées, chacune sera appliquée à la propriété correspondante listée par <span class="rouge">transition-property</span> (qui agit comme un index des propriétés impactées par les animations).</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">transition-property:</td>
+                                <td>Propriété qui désigne les noms des propriétés <span class="upper">css</span> sur lesquelles un effet de transition devrait être appliqué.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">transition-timing-function:</td>
+                                <td>Propriété qui va décrire la façon dont la valeur affectée va être calculée. Elle permet de définir une courbe d'accélération de manière à ce que la vitesse de transition varie au cours de sa durée. Les valeurs avec des mots-clés (<span class="rouge">ease</span> <span class="rouge">linear</span> <span class="rouge">ease-in-out</span> ...) correspondent à une courbe de Bézier (cubic-bezier) et qui permettent de varier les accélérations et décélérations durant les transitions.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">transition-delay:</td>
+                                <td>Propriété qui indique la durée à attendre avant de débuter la transition qui s'applique pour un changement de propriété. La valeur est en secondes ou ms. Une valeur positive permettra d'attendre avant de démarrer l'effet de transition et une valeur négative lancera l'animation immédiatement mais à partir d'un état intermédiaire (comme si la  transition avait déjà commencé).</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">animation-delay:</td>
+                                <td>Propriété qui permet de définir la durée d'attente avant de  démarrer une animation <span class="rouge">@keyFrames</span> Elle accepte les valeurs en secondes ou en millisecondes. La valeur 0s indique que l'animation démarre dès qu'elle est appliquée. Avec une valeur négative l'animation débutera immédiatement en étant déja avancée.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">animation-fill-mode:</td>
+                                <td>Poropriété qui indique la façon dont une animation doit appliquer les styles à sa cible avant et après son exécution. Accepte les mots clés <span class="upperRed">backwards</span> (en arrière) qui étend les valeurs de départ d'une animation pour la période de temps qui précède le début de l'animation, n'est utile que si nous avons un délai appliqué à l' animation. <span class="upperRed">forwards</span> (en avant) qui étend les valeurs finales d'une animation vers l'avant, sans fin et <span class="upperRed">both</span> (les deux), le mode animation-fill-mode entraînant ainsi l'extension des propriétés de l'animation dans les deux directions.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">animation-iteration-count:</td>
+                                <td>Propriété qui permet d'indiquer sur un ensemble des keyframes le nombre de cycles utilisés pour répéter une animation avant que celle-ci s'arrête. Si plusieurs valeurs sont indiquées, à chaque lancement de l'animation, c'est la valeur suivante de la liste qui est utilisée. Lorsqu'on arrive à la fin de la liste, on reprend avec la première valeur de la liste. Le mot clé  <span class="upperRed">infinite</span> associé à sette fonction permet de repéter l'animation à l'infini.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">animation-direction:</td>
+                                <td>Propriété associé aux keyframes qui permet d'indiquer si les cycles de l'animation doivent être joués dans le sens inverse et ou de façon alternée. Le mot clé <span class="upperRed">normal</span> permet une lecture de l'animation normalement, <span class="upperRed">reverse</span> une lecture vers l'arrière, <span class="upperRed">alternate</span> avec des allers retours et <span class="upperRed">alternate-reverse</span> qui permet une lecture avec des allers retours mais en commencant par la fin.</td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">animation-play-state:</td>
+                                <td>Propriété qui permet de définir si une animation est en pause avec le mot clé <span class="upperRed">paused</span> ou en cours d'exécution avec le mot clé <span class="upperRed">running</span>. Lorsqu'on reprend une animation en pause, celle-ci reprendra où elle avait été interrompue (elle ne recommencera pas depuis le début de la séquence).</td>
+                       </tr>
+                            <tr>
+                                  <td class="rouge">:active</td>
+                                  <td>Permet de cibler un élément lorsque celui-ci est activé par l'utilisateur. Lorsqu'on a une interaction avec le pointeur, il s'agit généralement du moment entre l'appui sur le pointeur et le relâchement de celui-ci.<a class="violet" href="https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes" target="_blank"> Lien</a> vers la liste de toutes les pseudoclasses.</td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">:hover</td>
+                                  <td>Permet de spécifier l'apparence d'un élément au moment ou l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.</td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">:link</td>
+                                  <td>Permet de sélectionner tous les liens à l'interieur d'éléments. Cette pseudo classe sélectionnera tout lien n'ayant pas été visité.</td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">:visited</td>
+                                  <td>Permet de modifier l'aspect d'un lien après que l'utilisateur l'a visité.</td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">:focus</td>
+                                  <td>Permet de cibler un élément lorsque celui-ci reçoit le focus (élément sélectionné au clavier ou à la souris), soit il est activé avec la souris comme par exemple le champ d'un formulaire.</td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">:first-of-type</td>
+                                  <td>Permet de cibler le premier élément enfant d'un type donné parmi ceux d'un même élément parent.</td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">:last-of-type</td>
+                                  <td>Permet de cible un élément qui est le dernier enfant d'un type donné dans la liste des enfants de l'élément parent. </td>
+                         </tr>
+                             <tr>
+                                  <td class="rouge">content:</td>
+                                  <td>Propriété utilisée afin de générer le contenu d'un pseudo-élément de texte ou d'image. On peu lui assigner une chaîne de caractères vides en utilisant des guillemets vides.</td>
+                         </tr>
+                         <tr>
+                                <td class="rouge">::before</td>
+                                <td>Elément qui permet de créer un pseudo-élément enfant (sera le premier enfant de l'élément) de l'élément sélectionné à chaque fois que son sélecteur a été assigné. Utilisé pour ajouter du contenu esthétique à un élément via la propriété <span class="upper">CSS</span> <span class="rouge">content:</span>'contenu'. Par défaut, l'élément créé est de type <span class="rouge">in-line</span></td>
+                       </tr>
+                         <tr>
+                                <td class="rouge">::after</td>
+                                <td>Elément qui permet de créer un pseudo-élément enfant (sera le dernier enfant de l'élément) de l'élément sélectionné à chaque fois que son sélecteur a été assigné. Utilisé pour ajouter du contenu esthétique à un élément via la propriété <span class="upper">css</span> <span class="rouge">content:</span>'contenu'. Par défaut, l'élément créé est de type in-line.</td>
+                       </tr>
+          </tbody>                           
+                         </table>
+                         
+                         <div class="btn">
+                            <a href="/Hobbies/Dev-Web/index-Dev-Web.html">Retour aux hobbies</a>
+                        </div>
+              <footer>
+                     <Span><i class="fas fa-copyright"></i> 2021 - Xavier Bastard-Rosset -</Span>
+              </footer>       
+               </body>
+               
+    </html>
